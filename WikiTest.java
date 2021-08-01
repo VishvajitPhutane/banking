@@ -33,6 +33,7 @@ public class WikiTest
   {
 	 // System.setProperty("webdriver.chrome.driver", "V:\\Vishvajit\\Java Practice\\webdrivertraining\\test\\resources\\chromedriver.exe");
 	 // driver = new ChromeDriver();
+	    System.out.println("Before class after commit")
   }
 
   @AfterClass
