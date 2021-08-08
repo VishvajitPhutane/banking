@@ -17,7 +17,7 @@ public class WikiTest
   @Test
   public void wikiTestM() 
   {
-	  driver.get("https://www.wikipedia.org/");
+	 // driver.get("https://www.wikipedia.org/");
 	  driver.findElement(By.id("js-link-box-en")).click();
 	  driver.findElement(By.id("searchInput")).sendKeys("Selenium");
 	  driver.findElement(By.id("searchButton")).click();
